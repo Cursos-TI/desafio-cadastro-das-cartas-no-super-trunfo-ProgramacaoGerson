@@ -6,33 +6,34 @@ int main() {
 
     //Declarando variáveis do tipo char, float e int do Cartão 1
     char estado;
-    //char codigo [5];
-    //char cidade [50];
-    //int populacao;
-    //float area;
-    //float pib;
-    //int pontos_turisticos;
+    char codigo [5];
+    char cidade [50];
+    int populacao;
+    float area;
+    float pib;
+    int pontos_turisticos;
 
     //Exibindo resultado das variáveis aplicadas do Cartão 1
-    printf("Estado: \n");
-    scanf(" %c", estado)
+    printf("Carta 1:\nEstado: ");
+    scanf(" %c", &estado);
 
-    //printf("Código: %s\n", codigo);
+    printf("Código: ");
+    scanf(" %s", codigo);
 
+    printf("Nome da Cidade: ");
+    scanf(" %s", cidade);
 
-    //printf("Nome da Cidade: %s\n", cidade);
+    printf("População: ");
+    scanf(" %d", &populacao);
 
+    printf("Área: km²");
+    scanf(" %f", &area);
 
-    //printf("População: %d\n", populacao);
+    printf("PIB: bilhões de reais");
+    scanf(" %f", &pib);
 
-
-    //printf("Área: %.2f km²\n", area);
-
-
-    //printf("PIB: %.2f bilhões de reais\n", pib);
-
-
-    //printf("Número de Pontos Turísticos: %d\n", pontos_turisticos);
+    printf("Número de Pontos Turísticos: ");
+    scanf(" %d", &pontos_turisticos);
 
     //Declarando variáveis do tipo char, float e int do Cartão 2
     //char estado2;
