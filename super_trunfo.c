@@ -13,7 +13,7 @@ int main() {
     float pib;
     int pontos_turisticos;
 
-    //Lendo e exibindo resultado das variáveis aplicadas ao Cartão 1, através de printf e scanf
+    //Inserindo as informações refente a Carta 1
     printf("Carta 1:\nEstado: ");
     scanf(" %c", &estado);
 
@@ -44,8 +44,8 @@ int main() {
     float pib2;
     int pontos_turisticos2;
 
-    //Lendo e exibindo resultado das variáveis aplicadas ao Cartão 2, através de printf e scanf
-    printf("\nCartão 2:\nEstado ");
+    //Inserindo as informações refente a Carta 2
+    printf("\nCarta 2:\nEstado ");
     scanf(" %c", &estado2);
 
     printf("Código: ");
@@ -65,6 +65,26 @@ int main() {
 
     printf("Número de Pontos Turísticos: ");
     scanf(" %d", &pontos_turisticos2);
+
+    //Imprimindo as informações referente a Carta 1
+    printf("\nCarta1\n");
+    printf("Estado: %c\n", estado);
+    printf("Código: %s\n", codigo);
+    printf("Cidade: %s\n", cidade);
+    printf("População: %d\n", populacao);
+    printf("Área: %f km²\n", area);
+    printf("PIB: %f bilhões de reais\n", pib);
+    printf("Número de Pontos Turísticos: %d\n", pontos_turisticos);
+
+    //Imprimindo as informações referente a Carta 2
+    printf("\nCarta2\n");
+    printf("Estado: %c\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Cidade: %s\n", cidade2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %f km²\n", area2);
+    printf("PIB: %f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
 
     //Indicação de que o programa terminou com sucesso
     return 0;
