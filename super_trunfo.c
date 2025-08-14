@@ -13,7 +13,7 @@ int main() {
     float pib;
     int pontos_turisticos;
 
-    //Exibindo resultado das variáveis aplicadas do Cartão 1
+    //Lendo e exibindo resultado das variáveis aplicadas ao Cartão 1, através de printf e scanf
     printf("Carta 1:\nEstado: ");
     scanf(" %c", &estado);
 
@@ -26,45 +26,45 @@ int main() {
     printf("População: ");
     scanf(" %d", &populacao);
 
-    printf("Área: km²");
+    printf("Área: ");
     scanf(" %f", &area);
 
-    printf("PIB: bilhões de reais");
+    printf("PIB: ");
     scanf(" %f", &pib);
 
     printf("Número de Pontos Turísticos: ");
     scanf(" %d", &pontos_turisticos);
 
     //Declarando variáveis do tipo char, float e int do Cartão 2
-    //char estado2;
-    //char codigo2 [5];
-    //char cidade2 [50];
-    //int populacao2;
-    //float area2;
-    //float pib2;
-    //int pontos_turisticos2;
+    char estado2;
+    char codigo2 [5];
+    char cidade2 [50];
+    int populacao2;
+    float area2;
+    float pib2;
+    int pontos_turisticos2;
 
-    //Exibindo resultado das variáveis aplicadas do Cartão 2
-    //printf("\nCartão 2:\nEstado: %c\n", estado2);
+    //Lendo e exibindo resultado das variáveis aplicadas ao Cartão 2, através de printf e scanf
+    printf("\nCartão 2:\nEstado ");
+    scanf(" %c", &estado2);
 
+    printf("Código: ");
+    scanf(" %s", codigo2);
 
-    //printf("Código: %s\n", codigo2);
+    printf("Nome da Cidade: ");
+    scanf(" %s", cidade2);
 
+    printf("População: ");
+    scanf(" %d", &populacao2);
 
-    //printf("Nome da Cidade: %s\n", cidade2);
+    printf("Área: ");
+    scanf(" %f", &area2);
 
+    printf("PIB: ");
+    scanf(" %f", &pib2);
 
-    //printf("População: %d\n", populacao2);
-
-
-    //printf("Área: %.2f km²\n", area2);
-
-
-    //printf("PIB: %.2f bilhões de reais\n", pib2);
-
-
-    //printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
-
+    printf("Número de Pontos Turísticos: ");
+    scanf(" %d", &pontos_turisticos2);
 
     //Indicação de que o programa terminou com sucesso
     return 0;
