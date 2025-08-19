@@ -12,6 +12,8 @@ int main() {
     float area1;
     float pib1;
     int pontos_turisticos1;
+    float densidade_populacional1;
+    float pibpercapita1;
 
     //Inserindo as informações refente a Carta 1
     printf("Carta 1:\nEstado: ");
@@ -43,6 +45,8 @@ int main() {
     float area2;
     float pib2;
     int pontos_turisticos2;
+    float densidade_populacional2;
+    float pibpercapita2;
 
     //Inserindo as informações refente a Carta 2
     printf("\nCarta 2:\nEstado ");
@@ -66,6 +70,10 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf(" %d", &pontos_turisticos2);
 
+    //Declarando a variável de acordo com a operação aritmética de divisão
+    densidade_populacional1 = populacao1 / area1;
+    pibpercapita1 = pib1 / populacao1;
+
     //Imprimindo as informações referente a Carta 1
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
@@ -75,6 +83,12 @@ int main() {
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
+    printf("Densidade Populacional %.2f hab/km²\n", densidade_populacional1);
+    printf("PIB per Capita: %.2f reais\n", pibpercapita1);
+
+    //Declarando a variável de acordo com a operação aritmética de divisão
+    densidade_populacional2 = populacao2 / area2;
+    pibpercapita2 = pib2 / populacao2;
 
     //Imprimindo as informações referente a Carta 2
     printf("\nCarta 2:\n");
@@ -85,6 +99,8 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
+    printf("Densidade Populacional %.2f hab/km²\n", densidade_populacional2);
+    printf("PIB per Capita: %.2f reais\n", pibpercapita2);
 
     //Indicação de que o programa terminou com sucesso
     return 0;
