@@ -70,7 +70,7 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf(" %d", &pontos_turisticos2);
 
-    //Declarando a variável de acordo com a operação aritmética de divisão
+    //Declarando a variável baseado na divisão indicada pelo desafio
     densidade_populacional1 = populacao1 / area1;
     pibpercapita1 = pib1 / populacao1;
 
@@ -86,7 +86,7 @@ int main() {
     printf("Densidade Populacional %.2f hab/km²\n", densidade_populacional1);
     printf("PIB per Capita: %.2f reais\n", pibpercapita1);
 
-    //Declarando a variável de acordo com a operação aritmética de divisão
+    //Declarando a variável baseado na divisão indicada pelo desafio
     densidade_populacional2 = populacao2 / area2;
     pibpercapita2 = pib2 / populacao2;
 
