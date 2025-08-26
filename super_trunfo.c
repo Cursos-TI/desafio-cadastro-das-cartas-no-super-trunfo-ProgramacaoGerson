@@ -106,12 +106,15 @@ int main() {
     printf("Densidade Populacional %.2f hab/km²\n", densidade_populacional2);
     printf("PIB per Capita: %.2f reais\n", pibpercapita2);
 
+    //Declarando variável do tipo float para o inverso da densidade
     inverso_densidade1 = 1 / densidade_populacional1;
     inverso_densidade2 = 1 / densidade_populacional2;
 
+    //Declarando variável do tipo float para o super poder
     super_poder1 = populacao1 + area1 + pib1 + pontos_turisticos1 + pibpercapita1 + inverso_densidade1;
     super_poder2 = populacao2 + area2 + pib2 + pontos_turisticos2 + pibpercapita2 + inverso_densidade2;
 
+    //Imprimindo o resultado das comparações entre atributos da Carta 1 e 2
     printf("\nComparação de Cartas:\n");
     printf("População: %d\n", populacao1 > populacao2);
     printf("Área: %d\n", area1 > area2);
